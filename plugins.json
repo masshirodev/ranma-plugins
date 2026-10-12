@@ -55,8 +55,8 @@
       "ranma": "0.1.0"
     },
     {
-      "repo": "masshirodev/lattice.ranma",
-      "description": "The Kanban board of the repository you are in, from Kumiko (Lattice): a picker, a board screen and a bar module. Read-only.",
+      "repo": "masshirodev/kumiko.ranma",
+      "description": "The Kanban board of the repository you are in, from Kumiko: a picker, a board screen and a bar module. Read-only.",
       "tags": ["kanban", "bar"],
       "needs": ["curl"],
       "ranma": "0.1.0"
@@ -66,6 +66,12 @@
       "description": "Rest the pointer on a link in any pane and see where it goes.",
       "tags": ["links", "mouse"],
       "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/marks.ranma",
+      "description": "Jump between a pane's prompts, copy a command's output or its command line, and list the commands in the scrollback with their exit status.",
+      "tags": ["shell", "scrollback"],
+      "ranma": "0.2.1"
     },
     {
       "repo": "masshirodev/notify.ranma",
