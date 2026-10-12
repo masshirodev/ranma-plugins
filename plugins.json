@@ -10,9 +10,29 @@
       "ranma": "0.1.0"
     },
     {
+      "repo": "masshirodev/clipboard.ranma",
+      "description": "A history of what you copied, pasted back into a pane or copied again from a list.",
+      "tags": ["clipboard", "editing"],
+      "ranma": "0.1.0"
+    },
+    {
       "repo": "masshirodev/compose.ranma",
       "description": "Write a prompt or a long command in your editor, and have it typed into the pane you were in.",
       "tags": ["ai", "editing"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/gate.ranma",
+      "description": "Run the focused pane's repository gate, its pre-commit checks, with one key, and badge the pane with the result.",
+      "tags": ["git", "dev"],
+      "needs": ["git"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/git.ranma",
+      "description": "The focused pane's git branch and changes in the bar, and a folder of git keys: status, lazygit, copy the branch or SHA, open the remote.",
+      "tags": ["git", "bar"],
+      "needs": ["git"],
       "ranma": "0.1.0"
     },
     {
@@ -22,9 +42,30 @@
       "ranma": "0.1.0"
     },
     {
+      "repo": "masshirodev/kizuna.ranma",
+      "description": "kizuna's running agents as pane badges and a bar count, with a picker to focus or message one.",
+      "tags": ["ai", "agents", "bar"],
+      "needs": ["kizuna"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/lattice.ranma",
+      "description": "The Kanban board of the repository you are in, from Kumiko (Lattice): a picker, a board screen and a bar module. Read-only.",
+      "tags": ["kanban", "bar"],
+      "needs": ["curl"],
+      "ranma": "0.1.0"
+    },
+    {
       "repo": "masshirodev/linkhover.ranma",
       "description": "Rest the pointer on a link in any pane and see where it goes.",
       "tags": ["links", "mouse"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/notify.ranma",
+      "description": "A desktop notification, a toast and a pane badge when a long command finishes, or one fails, where you are not looking.",
+      "tags": ["notifications", "panes"],
+      "needs": ["notify-send"],
       "ranma": "0.1.0"
     },
     {
@@ -32,6 +73,37 @@
       "description": "Ctrl+click a path or a link to open it: files in your editor, folders in a file manager, links in the browser.",
       "tags": ["files", "links", "mouse"],
       "needs": ["nvim", "yazi"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/ports.ranma",
+      "description": "The dev servers running across your panes, badged with their ports, to focus, open or copy.",
+      "tags": ["dev", "panes", "bar"],
+      "needs": ["ss"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/scratch.ranma",
+      "description": "Named scratch programs, each toggled in and out of a float by a key of its own.",
+      "tags": ["panes", "floating"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/sessionizer.ranma",
+      "description": "Pick a project directory and go to its workspace, or open one: tmux-sessionizer for ranma.",
+      "tags": ["projects", "workspaces"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/snippets.ranma",
+      "description": "Saved shell commands with placeholders, typed into the focused pane.",
+      "tags": ["editing", "shell"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/zen.ranma",
+      "description": "One pane with nothing around it, and everything put back after.",
+      "tags": ["panes", "focus"],
       "ranma": "0.1.0"
     }
   ]
