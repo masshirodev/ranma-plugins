@@ -1,0 +1,25 @@
+# plugins.json read the way hako reads it, then every plugin it lists loaded
+# into the latest ranma release (scripts/check.sh). Weekly too: a listed
+# plugin can stop loading without anything changing here.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 6 * * 1"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: The latest ranma release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download -R masshirodev/ranma -p 'ranma-*-x86_64-unknown-linux-gnu.tar.gz' -D "$RUNNER_TEMP"
+          tar -C "$RUNNER_TEMP" -xzf "$RUNNER_TEMP"/ranma-*.tar.gz
+          echo "$(dirname "$(find "$RUNNER_TEMP" -name ranma -type f)")" >> "$GITHUB_PATH"
+      - run: scripts/check.sh

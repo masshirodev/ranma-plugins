@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "name": "ranma plugins",
+  "plugins": [
+    {
+      "repo": "masshirodev/agents.ranma",
+      "description": "Every AI coding agent running in your panes: which are working, and which are waiting for you.",
+      "tags": ["ai", "agents"],
+      "needs": ["kizuna"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/compose.ranma",
+      "description": "Write a prompt or a long command in your editor, and have it typed into the pane you were in.",
+      "tags": ["ai", "editing"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/history.ranma",
+      "description": "Search a pane's scrollback by regex, pick a match, and jump to it.",
+      "tags": ["search", "scrollback"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/linkhover.ranma",
+      "description": "Rest the pointer on a link in any pane and see where it goes.",
+      "tags": ["links", "mouse"],
+      "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/openpath.ranma",
+      "description": "Ctrl+click a path or a link to open it: files in your editor, folders in a file manager, links in the browser.",
+      "tags": ["files", "links", "mouse"],
+      "needs": ["nvim", "yazi"],
+      "ranma": "0.1.0"
+    }
+  ]
+}
