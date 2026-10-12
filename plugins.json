@@ -22,6 +22,12 @@
       "ranma": "0.1.0"
     },
     {
+      "repo": "masshirodev/errjump.ranma",
+      "description": "vim's quickfix list for any pane: compiler errors from the screen and scrollback, opened in your editor at their line.",
+      "tags": ["dev", "errors", "editing"],
+      "ranma": "0.1.0"
+    },
+    {
       "repo": "masshirodev/gate.ranma",
       "description": "Run the focused pane's repository gate, its pre-commit checks, with one key, and badge the pane with the result.",
       "tags": ["git", "dev"],
