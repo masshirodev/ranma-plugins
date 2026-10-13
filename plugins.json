@@ -10,6 +10,13 @@
       "ranma": "0.1.0"
     },
     {
+      "repo": "masshirodev/bar-extras.ranma",
+      "description": "Bar modules for what is playing, network traffic, disk use and running containers, each working only while the bar shows it.",
+      "tags": ["bar", "media", "system"],
+      "needs": ["playerctl", "df", "docker"],
+      "ranma": "0.2.3"
+    },
+    {
       "repo": "masshirodev/clipboard.ranma",
       "description": "A history of what you copied, pasted back into a pane or copied again from a list.",
       "tags": ["clipboard", "editing"],
@@ -20,6 +27,13 @@
       "description": "Write a prompt or a long command in your editor, and have it typed into the pane you were in.",
       "tags": ["ai", "editing"],
       "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/docker.ranma",
+      "description": "Your containers as a screen, with logs, a shell, restart, stop and start, on this machine or another host.",
+      "tags": ["docker", "dev"],
+      "needs": ["docker"],
+      "ranma": "0.2.2"
     },
     {
       "repo": "masshirodev/errjump.ranma",
@@ -46,6 +60,13 @@
       "description": "Search a pane's scrollback by regex, pick a match, and jump to it.",
       "tags": ["search", "scrollback"],
       "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/hours.ranma",
+      "description": "The running Kumiko work-hours session in the bar, and a key to clock in, out, pause and resume, offering the activity of the repository you are in.",
+      "tags": ["kumiko", "time", "bar"],
+      "needs": ["curl"],
+      "ranma": "0.2.3"
     },
     {
       "repo": "masshirodev/kizuna.ranma",
@@ -95,6 +116,13 @@
       "ranma": "0.1.0"
     },
     {
+      "repo": "masshirodev/project.ranma",
+      "description": "A layout file per repository, tmuxinator's job: open a project with its panes and commands arranged, after asking once whether to trust the file.",
+      "tags": ["layouts", "projects"],
+      "needs": ["sha256sum"],
+      "ranma": "0.2.2"
+    },
+    {
       "repo": "masshirodev/scratch.ranma",
       "description": "Named scratch programs, each toggled in and out of a float by a key of its own.",
       "tags": ["panes", "floating"],
@@ -107,10 +135,30 @@
       "ranma": "0.1.0"
     },
     {
+      "repo": "masshirodev/slime.ranma",
+      "description": "vim-slime for ranma: mark a REPL pane as the workspace's target and send it copies, command lines and selections.",
+      "tags": ["repl", "editing"],
+      "ranma": "0.2.2"
+    },
+    {
       "repo": "masshirodev/snippets.ranma",
       "description": "Saved shell commands with placeholders, typed into the focused pane.",
       "tags": ["editing", "shell"],
       "ranma": "0.1.0"
+    },
+    {
+      "repo": "masshirodev/ssh.ranma",
+      "description": "A picker over the hosts in your ssh config that goes to the pane connected there or opens a connection, and a badge when a server stops answering.",
+      "tags": ["ssh", "remote"],
+      "needs": ["ssh"],
+      "ranma": "0.2.2"
+    },
+    {
+      "repo": "masshirodev/watch.ranma",
+      "description": "Rerun a command whenever the repository's files change, in a pane kept out of sight, with the result as a badge on the repository's panes.",
+      "tags": ["dev", "tests"],
+      "needs": ["inotifywait"],
+      "ranma": "0.2.2"
     },
     {
       "repo": "masshirodev/zen.ranma",
