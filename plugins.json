@@ -95,6 +95,12 @@
       "ranma": "0.2.1"
     },
     {
+      "repo": "masshirodev/mobile.ranma",
+      "description": "The view for a phone or tablet over SSH: a touch toolbar, one pane at a time and a large bar, used by itself while the phone drives the screen. ranma's default setup installs it.",
+      "tags": ["mobile", "touch"],
+      "ranma": "0.3.0"
+    },
+    {
       "repo": "masshirodev/notify.ranma",
       "description": "A desktop notification, a toast and a pane badge when a long command finishes, or one fails, where you are not looking.",
       "tags": ["notifications", "panes"],
