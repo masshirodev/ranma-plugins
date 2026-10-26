@@ -160,6 +160,12 @@
       "ranma": "0.2.2"
     },
     {
+      "repo": "masshirodev/vi.ranma",
+      "description": "Vim-style NORMAL and INSERT over shells and other programs that only take arrows; editors and full-screen tools are left alone.",
+      "tags": ["editing", "shell"],
+      "ranma": "0.4.0"
+    },
+    {
       "repo": "masshirodev/watch.ranma",
       "description": "Rerun a command whenever the repository's files change, in a pane kept out of sight, with the result as a badge on the repository's panes.",
       "tags": ["dev", "tests"],
