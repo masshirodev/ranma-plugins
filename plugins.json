@@ -122,6 +122,13 @@
       "ranma": "0.1.0"
     },
     {
+      "repo": "masshirodev/profiles.ranma",
+      "description": "Pick, save and edit profiles, each a file of its own, with every profile listed and where it came from.",
+      "tags": ["profiles", "looks"],
+      "needs": ["find"],
+      "ranma": "0.4.0"
+    },
+    {
       "repo": "masshirodev/project.ranma",
       "description": "A layout file per repository, tmuxinator's job: open a project with its panes and commands arranged, after asking once whether to trust the file.",
       "tags": ["layouts", "projects"],
